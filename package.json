@@ -1,0 +1,41 @@
+{
+  "name": "@dr-kobros/react-place-a-manatee",
+  "version": "0.1.0",
+  "description": "React component for place-a-manatee",
+  "main": "lib/PlaceAManatee.js",
+  "scripts": {
+    "start": "NODE_ENV=development babel-node examples/src/server.js",
+    "lint": "eslint src",
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pekkis/react-place-a-manatee.git"
+  },
+  "devDependencies": {
+    "@dr-kobros/react-broilerplate": "^0.1.7",
+    "@dr-kobros/react-broilerplate-server-express": "^0.1.3",
+    "react-addons-test-utils": "^0.14.7",
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "mocha": "^2.4.5",
+    "normalize.css": "^3.0.3"
+  },
+  "keywords": [
+    "React",
+    "Component",
+    "Placeholder",
+    "Manatee"
+  ],
+  "author": "pekkis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pekkis/react-place-a-manatee/issues"
+  },
+  "homepage": "https://github.com/pekkis/react-place-a-manatee#readme",
+  "dependencies": {
+    "react": "^0.14.0"
+  }
+}
