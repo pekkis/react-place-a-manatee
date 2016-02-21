@@ -13,21 +13,20 @@ npm install --save @dr-kobros/react-place-a-manatee
 ## Usage
 
 ```js
-var React = require('react');
-var PlaceAManatee = require('@dr-kobros/react-place-a-manatee')
+import React from 'react';
+import PlaceAManatee from '@dr-kobros/react-place-a-manatee';
 
 React.render(
-  <PlaceAManatee />,
+  <PlaceAManatee width={640} height={480} type="bitmap" />,
   mountNode
 );
 ```
 
 ## Available Props
 
-prop      | type                 | default value
-----------|----------------------|--------------
-`value`   | `string`             |
-`size`    | `number`             | `128`
-`bgColor` | `string` (CSS color) | `"#FFFFFF"`
-`fgColor` | `string` (CSS color) | `"#000000"`
-`level`   | `string` (`'L' 'M' 'Q' 'H'`)            | `'L'`
+prop      | type                      | default value
+----------|---------------------------|---------------
+`type`    | `string` (bitmap, vector) | `bitmap`
+`width`   | `number` (in pixels)      | `640`
+`height`  | `number` () | `"#FFFFFF"` | `480`
+`specimen`| `number` (optional)       |
