@@ -30,3 +30,11 @@ prop      | type                      | default value
 `width`   | `number` (in pixels)      | `640`
 `height`  | `number` (in pixels)      | `480`
 `specimen`| `number` (optional)       |
+
+## Examples / develop
+
+* fork / clone
+* npm install
+* cd examples
+* npm run start
+* http://localhost:8765
