@@ -28,5 +28,5 @@ prop      | type                      | default value
 ----------|---------------------------|---------------
 `type`    | `string` (bitmap, vector) | `bitmap`
 `width`   | `number` (in pixels)      | `640`
-`height`  | `number` () | `"#FFFFFF"` | `480`
+`height`  | `number` (in pixels)      | `480`
 `specimen`| `number` (optional)       |
